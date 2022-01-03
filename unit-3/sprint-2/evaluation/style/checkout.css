@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+.container {
+  margin: 150px auto;
+  border: 1px solid teal;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  color: teal;
+  text-align: center;
+}
+
+.container > form {
+  text-align: left;
+  color: teal;
+  margin: auto;
+  display: block;
+  justify-content: center;
+}
+
+table {
+  margin: 20px auto;
+}
+
+button,
+#btn {
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover,
+#btn:hover {
+  background-color: rgb(7, 75, 75);
+  color: white;
+}

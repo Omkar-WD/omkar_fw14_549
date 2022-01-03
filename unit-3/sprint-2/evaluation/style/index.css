@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  top: 0;
+  position: sticky;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.navbar > p > a {
+  font-size: 20px;
+  margin: 20px;
+  color: teal;
+  cursor: pointer;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.navbar > p > a:hover {
+  color: rgb(94, 233, 233);
+}

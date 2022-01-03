@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style/checkout.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Checkout Page</h1>
+        <form onsubmit="myForm(event)">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" placeholder="enter your name" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="number" placeholder="enter your phone" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" placeholder="enter your address" required /></td>
+                    </tr>
+                    <tr>
+                        <td><input id="btn" type="submit" value="Submit"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <button onclick="goBack()">Go Back</button>
+</body>
+
+</html>
+
+<script src="scripts/checkout.js">
+</script>
